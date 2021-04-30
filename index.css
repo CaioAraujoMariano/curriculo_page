@@ -1,0 +1,100 @@
+body, html{
+    background-color: #4B4453;
+    width: 100%;
+}
+
+.container {
+    background-color: #4D59A2;
+    height: 100%;
+    width: 60%;
+}
+.row{
+    height: 100%;
+}
+.col .col-sm-8{
+    width: 100%;
+}
+.card {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.card-img-top{
+    border-radius: 15px 15px 0px 0px;
+}
+.list-group-item{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+a{
+    color: #E6F4F1;
+    transition: all .4s;
+}
+a:hover{
+    margin-left: 10px;
+    color: #8BA1FF;
+}
+.card-body{
+    text-align: center;
+}
+.card-title{
+    font-size: 1.9rem;
+    color: #E1F5F3;
+    font-weight: bold;
+    text-align: center;
+}
+.card-subtitle{
+    font-size: 1.5rem;
+    color: #E1F5F3;
+    font-weight: bold;
+    margin: 50px 0 30px 0;
+}
+.card-text{
+    font-size: 1rem;
+    color: #C9CEFF;
+    font-weight: bold;
+}
+.dados-pessoais{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    padding-right: 10px;
+}
+.sobre-mim{
+    margin-top: 50px;
+    padding-right: 10px;
+}
+
+tr, th, td {
+    color: #C9CEFF;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+label{
+    margin-bottom: 5px;
+    color: #C9CEFF;
+    font-weight: bold;
+}
+
+.btn-enviar{
+    margin-top: 15px;
+    background-color: #AAAABC;
+}
+
+
+@media screen and (max-width: 992px) {
+    .dados-pessoais {
+        border-right: none;
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        max-width: 992px;
+        padding: 40px 10px;
+    }
+    body, html{
+        width: 100%;
+    }
+  }
